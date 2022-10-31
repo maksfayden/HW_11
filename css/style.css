@@ -1,0 +1,173 @@
+.page{
+	position: relative;
+	min-height: 200px;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.page__items{
+padding: 10px;
+text-align: center;
+color: wheat;
+}
+.page__items--grey{
+	background-color: grey;
+	position: absolute;
+	min-height: 72px;
+	padding-top: 25px;
+}
+.page__items--red{
+	background-color: red;
+}
+.page__items--green{
+	background-color: green;
+}
+.page__items--purple{
+	background-color: purple;
+	position: absolute;
+	right: -80px;
+	top: 0;
+	min-height: 72px;
+	padding-top: 25px;
+}
+
+.column{
+	max-width: 1000px;
+	max-height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+.column__columns{
+padding: 20px;
+}
+.column__columns--1{
+background-color: blue;
+top: 20px;
+position: relative;
+z-index: 3;
+}
+.column__columns--2{
+	background-color: goldenrod;
+	position: relative;
+	z-index: 2;
+}
+.column__columns--3{
+	background-color: seagreen;
+	top: -30px;
+	position: relative;
+	z-index: 1;
+}
+.column__columns--4{
+	background-color: teal;
+	top: -50px;
+	position: relative;
+	z-index: 0;
+}
+
+.item{
+	max-width: 1000px;
+	min-height: 1000px;
+	margin: 0 auto;
+
+}
+.item__items{
+	font-size: 20px;
+padding: 30px;
+text-align: center;
+}
+.item__items--1{
+background-color: yellow;
+position: fixed;
+top: 464px;
+left: 0;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.item__items--2{
+	background-color: forestgreen;
+}
+
+.block{
+	max-width: 1000px;
+	min-height: 2000px;
+	margin: 50px auto;
+	text-align: center;
+}
+.block__itm{
+	color: cornflowerblue;
+	padding: 20px;
+}
+.block__itm--1{
+	background-color: green;
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+.block__itm--2{
+	background-color: tomato;
+	position: sticky;
+	top: 0;
+}
+.block__itm--3{
+	background-color: palegreen;
+	
+}
+
+
+.content{
+	width: 4000px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.car{
+	position: relative;
+}
+.car__city{
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	bottom: 150px;
+	background-image: url(../img/city.png);
+}
+.car__sky{
+	height: 1000px;
+	width: 100%;
+	background-image: url(../img/sky.jpg);
+	background-size: cover;
+}
+
+.car__road{
+	width: 100%;
+	height: 150px;
+	background-image: url(../img/road.jpg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.car__body img{
+	height: 200px;
+	width: 500px;
+	position: absolute;
+	bottom: 0;
+	left: 150px;
+}
+
+.car__wheel--1 img{
+	width: 120px;
+	height: 120px;
+position: absolute;
+bottom: 0;
+left: 200px;
+}
+.car__wheel--2 img{
+	width: 120px;
+	height: 120px;
+position: absolute;
+bottom: 0;
+left: 500px;
+}
+
+
+
+
